@@ -40,7 +40,12 @@ body {
 .header .navigation li {
   list-style: none;
   float: left;
-  padding: 0 10px;
+  padding: 0 25px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.header .navigation li:hover {
+  border-bottom: 2px solid var(--landing-text-color);
 }
 .header .navigation .hide-on-desktop {
   display: none;
