@@ -2,6 +2,8 @@
 :root {
   --primary-color: #beebe9;
   --overlay-color: rgba(0, 0, 0, 0.6);
+  --background-medium: #596157;
+  --background-dark: #333333;
   --landing-text-color: #fffdf9;
   --mg-bottom: 10px;
 }
@@ -101,7 +103,7 @@ body {
   height: 400px;
   position: relative;
   text-align: center;
-
+  background-color: var(--background-dark);
   padding: 1rem;
 }
 .mission-section .container {
@@ -112,9 +114,12 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  color: var(--primary-color);
 }
-.mission-section i {
+
+.mission-section .container i {
   font-size: 4rem;
+  margin-bottom: 10px;
 }
 footer {
   padding: 2rem;
@@ -135,10 +140,11 @@ footer {
 .hide {
   display: none;
 }
-
+/* Media Queries */
 @media (max-width: 800px) {
   .header .navigation {
     position: fixed;
+    right: 3rem;
   }
   .header .navigation ul li.hide-on-mobile {
     display: none;
