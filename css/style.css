@@ -105,6 +105,7 @@ body {
 }
 .mission-section {
   position: relative;
+  z-index: 1;
   text-align: center;
   background-color: var(--background-dark);
   padding: 2rem;
