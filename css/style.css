@@ -2,7 +2,7 @@
 :root {
   --primary-color: #beebe9;
   --overlay-color: rgba(0, 0, 0, 0.6);
-  --background-medium: #596157;
+  --background-medium: #b4bdb2;
   --background-dark: #333333;
   --landing-text-color: #fffdf9;
   --mg-bottom: 10px;
@@ -138,6 +138,9 @@ body {
   font-size: 1.2rem;
   font-weight: 200;
   letter-spacing: 3px;
+}
+.mission-section .container p {
+  color: var(--background-medium);
 }
 
 /* image Section */
